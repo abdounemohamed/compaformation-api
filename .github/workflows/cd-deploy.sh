@@ -20,7 +20,7 @@ git pull origin main
 /usr/bin/php8.0 artisan optimize
 
 # Run database migrations
-/usr/bin/php8.0 artisan migrate --force
+#/usr/bin/php8.0 artisan migrate --force
 
 # Exit maintenance mode
 /usr/bin/php8.0 artisan up
