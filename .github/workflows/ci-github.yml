@@ -46,4 +46,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           host: ${{ secrets.HOST }}
           password: ${{ secrets.PASSWORD }}
-          script: "cd compaformation-api/ && ./cd-deploy.sh"
+          script: "cd compaformation-api/ && cd-deploy.sh"
