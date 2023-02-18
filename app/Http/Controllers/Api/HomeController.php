@@ -7,8 +7,15 @@ use App\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {
-    public function test()
+    public function __invoke(): array
     {
-
+        return [
+            'success' => true,
+            'message' => "Welcome to my Api",
+            'data' => [
+                'version' => '1.0',
+                'language' => app()->getLocale(),
+            ]
+        ];
     }
 }
